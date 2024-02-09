@@ -11,12 +11,12 @@
   },
   "mysql": {
     "client": "mysql",
-    "connection": "mysql://oji:@localhost:3306/weftune-backend"
+    "connection": "mysql://username:@localhost:3306/database-name"
   },
   "authentication": {
     "entity": "user",
     "service": "users",
-    "secret": "3G6iqQt/LS/vEY0VIVMgNqKVq7QFgDlm",
+    "secret": "",
     "authStrategies": [
       "jwt",
       "local"
